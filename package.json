@@ -1,0 +1,19 @@
+{
+  "name": "md-to-html",
+  "version": "1.0.0",
+  "description": "A parser with PEG.js.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/index.js",
+    "dev": "gulp",
+    "build": "gulp peg-compile"
+  },
+  "author": "uwaai",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-pegjs": "^0.2.0",
+    "gulp-rename": "^1.4.0"
+  },
+  "dependencies": {}
+}
